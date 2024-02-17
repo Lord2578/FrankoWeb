@@ -8,6 +8,8 @@ body {
 }
 
     /* HEADER */
+
+
 .header {
     height: 12vh;
     width: 60%;
@@ -43,9 +45,51 @@ body {
 
 .dim-franka {
     width: 75%;
-    height: 60%;
-    background-color: aqua;
+    height: 45%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 200px;
+    display: flex;
+    .dim-f-text {
+        width: 50%;
+        height: 100%;
+        .dim-f-text1 {
+            height: 60%;
+            width: 100%;
+            .dim-franka-p1 {
+                font-size: 90px;
+                text-align: center;
+                margin: 0 auto;
+                font-family: Montserrat;
+                font-weight: 700;
+                line-height: 81px;
+                color: white;
+            }
+            .dim-franka-p2 {
+                background: -webkit-linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1)); /* Для Safari/Chrome */
+                background: linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1)); /* Стандартний синтаксис */
+                -webkit-background-clip: text; /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+                background-clip: text; /* Дозволяємо обрізання фону за текстом */
+                color: transparent; /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+                text-align: center;
+                line-height: 22.5px;
+                font-weight: 400;
+                font-size: 25px;
+                font-family: Montserrat;
+                margin-top: 5px;
+            }
+        }
+        .dim-f-text2 {
+            height: 40%;
+            width: 100%;
+            background-color: aqua;
+        }
+    }
+    .dim-f-photo {
+        width: 50%;
+        height: 100%;
+        background-image: url(/img/frankopict.png);
+        background-size: cover;
+        border-radius: 42px;
+    }
 }
