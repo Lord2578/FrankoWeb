@@ -132,19 +132,19 @@ body {
 
 .dim-franka {
     width: 75%;
-    height: 45%;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
     display: flex;
     .dim-f-text {
-        width: 50%;
+        width: 60%;
         height: 100%;
         .dim-f-text1 {
-            height: 60%;
+            height: 45%;
             width: 100%;
             .dim-franka-p1 {
-                font-size: 90px;
+                font-size: 100px;
                 text-align: center;
                 margin: 0 auto;
                 font-family: Montserrat;
@@ -171,14 +171,23 @@ body {
             width: 100%;
             .icons-row {
                 width: 100%;
-                height: 60%;
+                height: 70%;
                 display: flex;
-                align-items: center;
+                align-items: flex-end;
                 justify-content: space-around;
             }
             .adress {
                 width: 100%;
-                height: 40%;
+                height: 30%;
+                .adress-p {
+                    font-size: 12px;
+                    font-family: Montserrat;
+                    line-height: 12px;
+                    font-weight: 300;
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                    margin-top: 50px;
+                }
             }
         }
     }
