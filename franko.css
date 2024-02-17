@@ -52,7 +52,6 @@ body {
 .container-fluid .tg-bot .info-bot .info-text {
   height: 100%;
   width: 75%;
-  background-color: blue;
   display: flex;
   flex-direction: column;
 }
@@ -60,16 +59,45 @@ body {
   height: 10%;
   width: 100%;
   background-color: greenyellow;
+  display: flex;
+  justify-content: flex-start;
 }
 .container-fluid .tg-bot .info-bot .info-text .second-info-text {
   height: 80%;
   width: 100%;
-  background-color: red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid .tg-bot .info-bot .info-text .second-info-text .txt-second-info {
+  background-image: linear-gradient(to right, rgb(232, 200, 240), rgb(250, 133, 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .container-fluid .tg-bot .info-bot .info-text .third-info-text {
   height: 10%;
   width: 100%;
-  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container-fluid .tg-bot .info-bot .info-text .third-info-text .txt-third-info {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  background-image: linear-gradient(to right, rgb(232, 200, 240), rgb(250, 133, 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* HEADER */
@@ -130,11 +158,16 @@ body {
   line-height: 81px;
   color: white;
 }
-.dim-franka .dim-f-text .dim-f-text1 .dim-franka-p2 { /* Для Safari/Chrome */
-  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245)); /* Стандартний синтаксис */
-  -webkit-background-clip: text; /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
-  background-clip: text; /* Дозволяємо обрізання фону за текстом */
-  color: transparent; /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+.dim-franka .dim-f-text .dim-f-text1 .dim-franka-p2 {
+  /* Для Safari/Chrome */
+  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245));
+  /* Стандартний синтаксис */
+  -webkit-background-clip: text;
+  /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+  background-clip: text;
+  /* Дозволяємо обрізання фону за текстом */
+  color: transparent;
+  /* Робимо текст прозорим, щоб був видимий тільки градієнт */
   text-align: center;
   line-height: 22.5px;
   font-weight: 400;
