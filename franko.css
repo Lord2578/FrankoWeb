@@ -5,6 +5,47 @@ body {
 }
 
 .container-fluid {
-  background-color: rgb(37, 36, 36);
-  height: 100vh;
+  height: 88vh;
+}
+
+/* HEADER */
+.header {
+  height: 12vh;
+  width: 60%;
+  margin: auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid white;
+  border-top: 0px;
+}
+.header .text-div {
+  height: 100%;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .text-div .text-header-home {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+}
+.header .text-div p {
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  line-height: 15px;
+}
+
+/*              MAIN-CONTENT             */
+.dim-franka {
+  width: 75%;
+  height: 60%;
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }/*# sourceMappingURL=franko.css.map */
