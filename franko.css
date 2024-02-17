@@ -1,1 +1,10 @@
-/*# sourceMappingURL=franko.css.map */
+body {
+  background-color: rgb(21, 21, 21);
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: rgb(37, 36, 36);
+  height: 100vh;
+}/*# sourceMappingURL=franko.css.map */
