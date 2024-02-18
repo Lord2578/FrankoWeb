@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-    height: 109vh;
+    height: 1600px;
 
     $primary-color: #f5f5f5;
     $secondary-color: #ddd;
@@ -23,7 +23,6 @@ body {
     .tg-bot {
         width: 100%;
         height: 60vh;
-        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -175,7 +174,7 @@ body {
 
 .dim-franka {
     width: 75%;
-    height: 40%;
+    height: 25%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
@@ -251,6 +250,24 @@ body {
         background-image: url(/img/frankopict.png);
         background-size: cover;
         border-radius: 42px;
+    }
+}
+
+.mod3 {
+    margin: auto;
+    height: 500px;
+    width: 75%;
+    background-color: bisque;
+    display: flex;
+    .models-3d-text {
+        width: 70%;
+        height: 100%;
+        background-color: aqua;
+    }
+    .models-3d-photo {
+        width: 30%;
+        height: 100%;
+        background-image: url(/img/sova.jpg);
     }
 }
 
