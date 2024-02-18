@@ -6,7 +6,7 @@ body {
 }
 
 .container-fluid {
-  height: 2700px;
+  height: 3000px;
 }
 .container-fluid .name-color {
   color: #FFFFFF;
@@ -33,15 +33,18 @@ body {
 .container-fluid .tg-bot .info-bot {
   width: 110vh;
   height: 30vh;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(0deg, #222222, #222222), linear-gradient(116.81deg, #EDA8FF 1.32%, #C13EE4 100%);
+  background: linear-gradient(0deg, #222222, #222222);
   border: 4px solid;
-  border: linear-gradient(116.81deg, #EDA8FF 1.32%, #C13EE4 100%);
+  -o-border-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228)) 1;
+     border-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228)) 1;
 }
 .container-fluid .tg-bot .info-bot .picture {
   height: 100%;
   width: 25%;
+  border-radius: 35px;
   background-image: url(./img/franko.jpg);
   background-position: center;
   background-size: cover;
@@ -57,9 +60,12 @@ body {
 .container-fluid .tg-bot .info-bot .info-text .first-info-text {
   height: 10%;
   width: 100%;
-  background-color: greenyellow;
   display: flex;
   justify-content: flex-start;
+}
+.container-fluid .tg-bot .info-bot .info-text .first-info-text .quote {
+  margin-left: -30px;
+  margin-bottom: -20px;
 }
 .container-fluid .tg-bot .info-bot .info-text .second-info-text {
   height: 80%;
@@ -358,6 +364,178 @@ body {
   border-radius: 40px;
 }
 .first-model .models-and-notif1 .not1 .down-border1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+
+.second-model {
+  width: 45%;
+  height: 23%;
+  margin: 0 auto;
+}
+.second-model .number2 {
+  width: 100%;
+  height: 23%;
+}
+.second-model .models-and-notif2 {
+  width: 100%;
+  height: 87%;
+  display: flex;
+}
+.second-model .models-and-notif2 .model2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.second-model .models-and-notif2 .model2 #ar-prompt {
+  display: none;
+}
+.second-model .models-and-notif2 .model2 model-viewer {
+  width: 100%;
+  height: 60%;
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228));
+}
+.second-model .models-and-notif2 .not2 {
+  width: 50%;
+  height: 100%;
+}
+.second-model .models-and-notif2 .not2 .model-message2 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(38, 38, 38);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second-model .models-and-notif2 .not2 .model-message2 .model-name2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19.8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.second-model .models-and-notif2 .not2 .model-message2 .model-info2 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: white;
+}
+.second-model .models-and-notif2 .not2 .down-border2 {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.second-model .models-and-notif2 .not2 .down-border2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+.second-model .models-and-notif2 .not2 .down-border2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+
+.third-model {
+  width: 45%;
+  height: 23%;
+  margin: 0 auto;
+}
+.third-model .number3 {
+  width: 100%;
+  height: 23%;
+}
+.third-model .models-and-notif3 {
+  width: 100%;
+  height: 87%;
+  display: flex;
+}
+.third-model .models-and-notif3 .model3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.third-model .models-and-notif3 .model3 #ar-prompt {
+  display: none;
+}
+.third-model .models-and-notif3 .model3 model-viewer {
+  width: 100%;
+  height: 60%;
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228));
+}
+.third-model .models-and-notif3 .not3 {
+  width: 50%;
+  height: 100%;
+}
+.third-model .models-and-notif3 .not3 .model-message3 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(38, 38, 38);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.third-model .models-and-notif3 .not3 .model-message3 .model-name3 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19.8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.third-model .models-and-notif3 .not3 .model-message3 .model-info3 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: white;
+}
+.third-model .models-and-notif3 .not3 .down-border3 {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.third-model .models-and-notif3 .not3 .down-border3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+.third-model .models-and-notif3 .not3 .down-border3::after {
   content: "";
   position: absolute;
   bottom: 0;

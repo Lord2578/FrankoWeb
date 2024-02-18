@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-    height: 2700px;
+    height: 3000px;
 
     $primary-color: #f5f5f5;
     $secondary-color: #ddd;
@@ -41,21 +41,23 @@ body {
         .info-bot {
             width: 110vh;
             height: 30vh;
+            padding: 20px;
             display: flex;
             flex-direction: row;
 
 
-            background: linear-gradient(0deg, #222222, #222222),
-                linear-gradient(116.81deg, #EDA8FF 1.32%, #C13EE4 100%);
+            background: linear-gradient(0deg, #222222, #222222);
             border: 4px solid;
 
-            border: linear-gradient(116.81deg, #EDA8FF 1.32%, #C13EE4 100%);
+            border-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1)) 1;
+
 
 
             .picture {
                 height: 100%;
                 width: 25%;
 
+                border-radius: 35px;
                 background-image: url(./img/franko.jpg);
                 background-position: center;
                 background-size: cover;
@@ -67,6 +69,7 @@ body {
             .info-text {
                 height: 100%;
                 width: 75%;
+                
 
                 display: flex;
                 flex-direction: column;
@@ -74,10 +77,14 @@ body {
                 .first-info-text {
                     height: 10%;
                     width: 100%;
-                    background-color: greenyellow;
 
                     display: flex;
                     justify-content: flex-start;
+
+                    .quote{
+                        margin-left: -30px;
+                        margin-bottom: -20px;
+                    }
                 }
 
                 .second-info-text {
@@ -101,6 +108,10 @@ body {
                         line-height: 20px;
                         letter-spacing: 0.02em;
                         text-align: left;
+
+
+                        
+
                     }
 
                 }
@@ -220,6 +231,7 @@ body {
         .dim-f-text2 {
             height: 40%;
             width: 100%;
+
             .icons-row {
                 width: 100%;
                 height: 70%;
@@ -227,9 +239,11 @@ body {
                 align-items: flex-end;
                 justify-content: space-around;
             }
+
             .adress {
                 width: 100%;
                 height: 30%;
+
                 .adress-p {
                     font-size: 12px;
                     font-family: Montserrat;
@@ -252,16 +266,18 @@ body {
     }
 }
 
-/*            3D MODELS INFO            */  
+/*            3D MODELS INFO            */
 
 .mod3 {
     margin: 50px auto;
     height: 500px;
     width: 75%;
     display: flex;
+
     .models-3d-text {
         width: 70%;
         height: 100%;
+
         .h1-3dmodel {
             text-align: right;
             color: white;
@@ -271,6 +287,7 @@ body {
             margin-top: 25px;
             font-family: Montserrat;
         }
+
         .text-3dmodel {
             background: -webkit-linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1));
             /* Для Safari/Chrome */
@@ -288,6 +305,7 @@ body {
             font-weight: 400;
             margin-left: 150px;
         }
+
         .ul-3dmodel {
             background: -webkit-linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1));
             /* Для Safari/Chrome */
@@ -306,6 +324,7 @@ body {
             line-height: 37.5px;
 
         }
+
         .text-3dmodel-adress {
             background: -webkit-linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1));
             /* Для Safari/Chrome */
@@ -325,6 +344,7 @@ body {
             margin-top: 40px;
         }
     }
+
     .models-3d-photo {
         width: 30%;
         height: 100%;
@@ -338,23 +358,27 @@ body {
     width: 45%;
     height: 23%;
     margin: 0 auto;
+
     .number1 {
         width: 100%;
         height: 23%;
     }
+
     .models-and-notif1 {
         width: 100%;
         height: 87%;
         display: flex;
+
         .model1 {
             width: 50%;
             height: 100%;
             display: flex;
             align-items: flex-end;
+
             #ar-prompt {
                 display: none;
             }
-            
+
             model-viewer {
                 width: 100%;
                 height: 60%;
@@ -362,9 +386,11 @@ body {
                 background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
             }
         }
+
         .not1 {
             width: 50%;
             height: 100%;
+
             .model-message1 {
                 width: 100%;
                 height: 30%;
@@ -374,6 +400,7 @@ body {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
                 .model-name1 {
                     font-family: Montserrat;
                     font-weight: 500;
@@ -382,6 +409,7 @@ body {
                     color: white;
                     margin-bottom: 10px;
                 }
+
                 .model-info1 {
                     text-align: center;
                     margin-top: 10px;
@@ -392,12 +420,14 @@ body {
                     color: white;
                 }
             }
+
             .down-border1 {
                 width: 100%;
                 height: 70%;
                 position: relative;
             }
-            .down-border1::before{
+
+            .down-border1::before {
                 content: "";
                 position: absolute;
                 bottom: 0;
@@ -407,7 +437,210 @@ body {
                 background-color: rgba(91, 91, 91, 1);
                 border-radius: 40px;
             }
-            .down-border1::after{
+
+            .down-border1::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 50%;
+                width: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+
+.second-model {
+    width: 45%;
+    height: 23%;
+    margin: 0 auto;
+
+    .number2 {
+        width: 100%;
+        height: 23%;
+    }
+
+    .models-and-notif2 {
+        width: 100%;
+        height: 87%;
+        display: flex;
+
+        .model2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+
+            #ar-prompt {
+                display: none;
+            }
+
+            model-viewer {
+                width: 100%;
+                height: 60%;
+                border-radius: 35px;
+                background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
+            }
+        }
+
+        .not2 {
+            width: 50%;
+            height: 100%;
+
+            .model-message2 {
+                width: 100%;
+                height: 30%;
+                background-color: rgba(38, 38, 38, 1);
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .model-name2 {
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 19.8px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+
+                .model-info2 {
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 13.5px;
+                    color: white;
+                }
+            }
+
+            .down-border2 {
+                width: 100%;
+                height: 70%;
+                position: relative;
+            }
+
+            .down-border2::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 50%;
+                height: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+
+            .down-border2::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 50%;
+                width: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.third-model {
+    width: 45%;
+    height: 23%;
+    margin: 0 auto;
+
+    .number3 {
+        width: 100%;
+        height: 23%;
+    }
+
+    .models-and-notif3 {
+        width: 100%;
+        height: 87%;
+        display: flex;
+
+        .model3 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+
+            #ar-prompt {
+                display: none;
+            }
+
+            model-viewer {
+                width: 100%;
+                height: 60%;
+                border-radius: 35px;
+                background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
+            }
+        }
+
+        .not3 {
+            width: 50%;
+            height: 100%;
+
+            .model-message3 {
+                width: 100%;
+                height: 30%;
+                background-color: rgba(38, 38, 38, 1);
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .model-name3 {
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 19.8px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+
+                .model-info3 {
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 13.5px;
+                    color: white;
+                }
+            }
+
+            .down-border3 {
+                width: 100%;
+                height: 70%;
+                position: relative;
+            }
+
+            .down-border3::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 50%;
+                height: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+
+            .down-border3::after {
                 content: "";
                 position: absolute;
                 bottom: 0;
