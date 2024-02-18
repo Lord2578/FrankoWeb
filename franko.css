@@ -6,7 +6,7 @@ body {
 }
 
 .container-fluid {
-  height: 1600px;
+  height: 1700px;
 }
 .container-fluid .name-color {
   color: #FFFFFF;
@@ -134,7 +134,7 @@ body {
 /*              MAIN-CONTENT             */
 .dim-franka {
   width: 75%;
-  height: 25%;
+  height: 20%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -207,16 +207,72 @@ body {
 }
 
 .mod3 {
-  margin: auto;
+  margin: 50px auto;
   height: 500px;
   width: 75%;
-  background-color: bisque;
   display: flex;
 }
 .mod3 .models-3d-text {
   width: 70%;
   height: 100%;
-  background-color: aqua;
+}
+.mod3 .models-3d-text .h1-3dmodel {
+  text-align: right;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 25px;
+  font-family: Montserrat;
+}
+.mod3 .models-3d-text .text-3dmodel {
+  /* Для Safari/Chrome */
+  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245));
+  /* Стандартний синтаксис */
+  -webkit-background-clip: text;
+  /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+  background-clip: text;
+  /* Дозволяємо обрізання фону за текстом */
+  color: transparent;
+  /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 22.5px;
+  font-weight: 400;
+  margin-left: 150px;
+}
+.mod3 .models-3d-text .ul-3dmodel {
+  /* Для Safari/Chrome */
+  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245));
+  /* Стандартний синтаксис */
+  -webkit-background-clip: text;
+  /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+  background-clip: text;
+  /* Дозволяємо обрізання фону за текстом */
+  color: transparent;
+  /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+  margin-left: 140px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Montserrat;
+  line-height: 37.5px;
+}
+.mod3 .models-3d-text .text-3dmodel-adress {
+  /* Для Safari/Chrome */
+  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245));
+  /* Стандартний синтаксис */
+  -webkit-background-clip: text;
+  /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+  background-clip: text;
+  /* Дозволяємо обрізання фону за текстом */
+  color: transparent;
+  /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Montserrat;
+  line-height: 18px;
+  margin-left: 180px;
+  margin-top: 40px;
 }
 .mod3 .models-3d-photo {
   width: 30%;
