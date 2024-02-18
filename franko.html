@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franko</title>
     <link rel="stylesheet" type="text/css" href="franko.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -62,8 +64,27 @@
                 <img src="/img/number1.svg" alt="First">
             </div>
             <div class="models-and-notif1">
-                <div class="model1"></div>
-                <div class="not1"></div>
+                <div class="model1">
+                    <model-viewer src="/model/bb-8_droid_star_wars_the_force_awakens.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" camera-target="-0.6037m 3.2m -0.02254m" camera-orbit="-687deg 77.85deg 30.95m" field-of-view="12deg">
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                            View in your space
+                        </button>
+                        <div id="ar-prompt">
+                            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                        </div>
+                    </model-viewer>
+                </div>
+                <div class="not1">
+                    <div class="model-message1">
+                        <p class="model-name1">Луна Дрекслер 1882–1933</p>
+                        <p class="model-info1">Амалія Дрекслер була відомим культурним і <br> громадським діячем міжвоєнного Львова. Займалася <br> скульптурою, живописом і філософськими практиками</p>
+                        <img src="/img/down-arrowmodel.svg" alt="Arrow">
+                    </div>
+                    <div class="down-border1"></div>
+                </div>
             </div>
         </div>
         <div class="tg-bot">

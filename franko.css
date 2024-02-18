@@ -284,7 +284,7 @@ body {
 /*              3D MODELS               */
 .first-model {
   width: 45%;
-  height: 28%;
+  height: 23%;
   margin: 0 auto;
 }
 .first-model .number1 {
@@ -299,12 +299,73 @@ body {
 .first-model .models-and-notif1 .model1 {
   width: 50%;
   height: 100%;
-  background-color: #EDA8FF;
+  display: flex;
+  align-items: flex-end;
+}
+.first-model .models-and-notif1 .model1 #ar-prompt {
+  display: none;
+}
+.first-model .models-and-notif1 .model1 model-viewer {
+  width: 100%;
+  height: 60%;
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228));
 }
 .first-model .models-and-notif1 .not1 {
   width: 50%;
   height: 100%;
-  background-color: #ff2537;
+}
+.first-model .models-and-notif1 .not1 .model-message1 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(38, 38, 38);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-model .models-and-notif1 .not1 .model-message1 .model-name1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19.8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.first-model .models-and-notif1 .not1 .model-message1 .model-info1 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: white;
+}
+.first-model .models-and-notif1 .not1 .down-border1 {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.first-model .models-and-notif1 .not1 .down-border1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+.first-model .models-and-notif1 .not1 .down-border1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
 }
 
 .name-color {
