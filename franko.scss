@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-    height: 3000px;
+    height: 2400px;
 
     $primary-color: #f5f5f5;
     $secondary-color: #ddd;
@@ -184,7 +184,7 @@ body {
 
 .dim-franka {
     width: 75%;
-    height: 13%;
+    height: 16%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
@@ -453,206 +453,6 @@ body {
 }
 
 
-.second-model {
-    width: 45%;
-    height: 23%;
-    margin: 0 auto;
-
-    .number2 {
-        width: 100%;
-        height: 23%;
-    }
-
-    .models-and-notif2 {
-        width: 100%;
-        height: 87%;
-        display: flex;
-
-        .model2 {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            align-items: flex-end;
-
-            #ar-prompt {
-                display: none;
-            }
-
-            model-viewer {
-                width: 100%;
-                height: 60%;
-                border-radius: 35px;
-                background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
-            }
-        }
-
-        .not2 {
-            width: 50%;
-            height: 100%;
-
-            .model-message2 {
-                width: 100%;
-                height: 30%;
-                background-color: rgba(38, 38, 38, 1);
-                border-radius: 35px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                .model-name2 {
-                    font-family: Montserrat;
-                    font-weight: 500;
-                    font-size: 22px;
-                    line-height: 19.8px;
-                    color: white;
-                    margin-bottom: 10px;
-                }
-
-                .model-info2 {
-                    text-align: center;
-                    margin-top: 10px;
-                    font-family: Montserrat;
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 13.5px;
-                    color: white;
-                }
-            }
-
-            .down-border2 {
-                width: 100%;
-                height: 70%;
-                position: relative;
-            }
-
-            .down-border2::before {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                width: 50%;
-                height: 3px;
-                background-color: rgba(91, 91, 91, 1);
-                border-radius: 40px;
-            }
-
-            .down-border2::after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                height: 50%;
-                width: 3px;
-                background-color: rgba(91, 91, 91, 1);
-                border-radius: 40px;
-            }
-        }
-    }
-}
-
-
-
-
-
-
-.third-model {
-    width: 45%;
-    height: 23%;
-    margin: 0 auto;
-
-    .number3 {
-        width: 100%;
-        height: 23%;
-    }
-
-    .models-and-notif3 {
-        width: 100%;
-        height: 87%;
-        display: flex;
-
-        .model3 {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            align-items: flex-end;
-
-            #ar-prompt {
-                display: none;
-            }
-
-            model-viewer {
-                width: 100%;
-                height: 60%;
-                border-radius: 35px;
-                background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
-            }
-        }
-
-        .not3 {
-            width: 50%;
-            height: 100%;
-
-            .model-message3 {
-                width: 100%;
-                height: 30%;
-                background-color: rgba(38, 38, 38, 1);
-                border-radius: 35px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                .model-name3 {
-                    font-family: Montserrat;
-                    font-weight: 500;
-                    font-size: 22px;
-                    line-height: 19.8px;
-                    color: white;
-                    margin-bottom: 10px;
-                }
-
-                .model-info3 {
-                    text-align: center;
-                    margin-top: 10px;
-                    font-family: Montserrat;
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 13.5px;
-                    color: white;
-                }
-            }
-
-            .down-border3 {
-                width: 100%;
-                height: 70%;
-                position: relative;
-            }
-
-            .down-border3::before {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                width: 50%;
-                height: 3px;
-                background-color: rgba(91, 91, 91, 1);
-                border-radius: 40px;
-            }
-
-            .down-border3::after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                height: 50%;
-                width: 3px;
-                background-color: rgba(91, 91, 91, 1);
-                border-radius: 40px;
-            }
-        }
-    }
-}
 
 
 $primary-color: #f5f5f5;
@@ -739,7 +539,7 @@ $name-color: #FFFFFF;
     .black-screen {
         height: 100%;
         width: 100%;
-        background-color: black;
+        background-color: rgba(21, 21, 21, 1);
         border-top-left-radius: 117px;
         border-top-right-radius: 117px;
     }
