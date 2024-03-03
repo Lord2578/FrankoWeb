@@ -6,7 +6,7 @@ body {
 }
 
 .container-fluid {
-  height: 2400px;
+  height: 3300px;
 }
 .container-fluid .name-color {
   color: #FFFFFF;
@@ -107,7 +107,7 @@ body {
 
 /*                HEADER                */
 .header {
-  height: 12vh;
+  height: 100px;
   width: 60%;
   margin: auto;
   border-bottom-left-radius: 50px;
@@ -130,6 +130,13 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+.header .text-div a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  line-height: 15px;
+}
 .header .text-div p {
   font-family: Montserrat;
   font-size: 15px;
@@ -140,7 +147,7 @@ body {
 /*              MAIN-CONTENT            */
 .dim-franka {
   width: 75%;
-  height: 16%;
+  height: 380px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -290,21 +297,21 @@ body {
 /*              3D MODELS               */
 .first-model {
   width: 45%;
-  height: 23%;
+  height: 612px;
   margin: 0 auto;
 }
 .first-model .number1 {
   width: 100%;
-  height: 23%;
+  height: 100px;
 }
 .first-model .models-and-notif1 {
   width: 100%;
-  height: 87%;
+  height: 525px;
   display: flex;
 }
 .first-model .models-and-notif1 .model1 {
   width: 50%;
-  height: 100%;
+  height: 525px;
   display: flex;
   align-items: flex-end;
 }
@@ -319,11 +326,11 @@ body {
 }
 .first-model .models-and-notif1 .not1 {
   width: 50%;
-  height: 100%;
+  height: 525px;
 }
 .first-model .models-and-notif1 .not1 .model-message1 {
   width: 100%;
-  height: 30%;
+  height: 210px;
   background-color: rgb(38, 38, 38);
   border-radius: 35px;
   display: flex;
@@ -348,9 +355,12 @@ body {
   line-height: 13.5px;
   color: white;
 }
+.first-model .models-and-notif1 .not1 .model-message1 .down-arrowmodel1 {
+  margin-top: 10px;
+}
 .first-model .models-and-notif1 .not1 .down-border1 {
   width: 100%;
-  height: 70%;
+  height: 315px;
   position: relative;
 }
 .first-model .models-and-notif1 .not1 .down-border1::before {
@@ -364,6 +374,95 @@ body {
   border-radius: 40px;
 }
 .first-model .models-and-notif1 .not1 .down-border1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+
+.second-model {
+  width: 45%;
+  height: 612px;
+  margin: 120px auto;
+}
+.second-model .number2 {
+  width: 100%;
+  height: 100px;
+}
+.second-model .models-and-notif2 {
+  width: 100%;
+  height: 525px;
+  display: flex;
+}
+.second-model .models-and-notif2 .model2 {
+  width: 50%;
+  height: 525px;
+  display: flex;
+  align-items: flex-end;
+}
+.second-model .models-and-notif2 .model2 #ar-prompt {
+  display: none;
+}
+.second-model .models-and-notif2 .model2 model-viewer {
+  width: 100%;
+  height: 60%;
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228));
+}
+.second-model .models-and-notif2 .not2 {
+  width: 50%;
+  height: 525px;
+}
+.second-model .models-and-notif2 .not2 .model-message2 {
+  width: 100%;
+  height: 210px;
+  background-color: rgb(38, 38, 38);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second-model .models-and-notif2 .not2 .model-message2 .model-name2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19.8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.second-model .models-and-notif2 .not2 .model-message2 .model-info2 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: white;
+}
+.second-model .models-and-notif2 .not2 .model-message2 .down-arrowmodel2 {
+  margin-top: 10px;
+}
+.second-model .models-and-notif2 .not2 .down-border2 {
+  width: 100%;
+  height: 315px;
+  position: relative;
+}
+.second-model .models-and-notif2 .not2 .down-border2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+.second-model .models-and-notif2 .not2 .down-border2::after {
   content: "";
   position: absolute;
   bottom: 0;

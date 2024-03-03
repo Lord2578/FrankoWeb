@@ -15,8 +15,8 @@
     <div class="header">
         <div class="text-div">
             <p class="text-header-home">HOME</p>
-            <p class="text-header-models">3D-MODELS</p>
-            <p class="text-header-bot">TG-BOT</p>
+            <a class="text-header-models" href="#models">3D-MODELS</a>
+            <a class="text-header-bot" href="#tg-bot">TG-BOT</a>
         </div>
     </div>
     <div class="container-fluid">
@@ -43,7 +43,7 @@
             <div class="dim-f-photo"></div>
         </div>
 
-        <hr style="margin-top: 100px; color: rgba(103, 103, 103, 1);">
+        <hr id="models" style="margin-top: 100px; color: rgba(103, 103, 103, 1);">
 
         <div class="mod3">
             <div class="models-3d-text">
@@ -67,7 +67,7 @@
             </div>
             <div class="models-and-notif1">
                 <div class="model1">
-                    <model-viewer src="/model/bb-8_droid_star_wars_the_force_awakens.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" camera-target="-0.6037m 3.2m -0.02254m" camera-orbit="-687deg 77.85deg 30.95m" field-of-view="12deg">
+                    <model-viewer src="./model/ready_model/untitled.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
                         <div class="progress-bar hide" slot="progress-bar">
                             <div class="update-bar"></div>
                         </div>
@@ -83,15 +83,74 @@
                     <div class="model-message1">
                         <p class="model-name1">Луна Дрекслер 1882–1933</p>
                         <p class="model-info1">Амалія Дрекслер була відомим культурним і <br> громадським діячем міжвоєнного Львова. Займалася <br> скульптурою, живописом і філософськими практиками</p>
-                        <img src="/img/down-arrowmodel.svg" alt="Arrow">
+                        <img src="/img/down-arrowmodel.svg" class="down-arrowmodel1" alt="Arrow">
                     </div>
                     <div class="down-border1"></div>
                 </div>
             </div>
         </div>
 
+        <div class="second-model">
+            <div class="number2">
+                <img src="/img/number2.svg" alt="Second">
+            </div>
+            <div class="models-and-notif2">
+                <div class="model2">
+                    <model-viewer src="./model/Birds/Birds.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                            View in your space
+                        </button>
+                        <div id="ar-prompt">
+                            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                        </div>
+                    </model-viewer>
+                    
+                </div>
+                <div class="not2">
+                    <div class="model-message2">
+                        <p class="model-name2">Луна Дрекслер 1882–1933</p>
+                        <p class="model-info2">Амалія Дрекслер була відомим культурним і <br> громадським діячем міжвоєнного Львова. Займалася <br> скульптурою, живописом і філософськими практиками</p>
+                        <img src="/img/down-arrowmodel.svg" class="down-arrowmodel2" alt="Arrow">
+                    </div>
+                    <div class="down-border2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="third-model">
+            <div class="number3">
+                <img src="/img/number3.svg" alt="Third">
+            </div>
+            <div class="models-and-notif3">
+                <div class="model3">
+                    <model-viewer src="./model/ready_model/untitled.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                            View in your space
+                        </button>
+                        <div id="ar-prompt">
+                            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                        </div>
+                    </model-viewer>
+                </div>
+                <div class="not3">
+                    <div class="model-message3">
+                        <p class="model-name3">Луна Дрекслер 1882–1933</p>
+                        <p class="model-info3">Амалія Дрекслер була відомим культурним і <br> громадським діячем міжвоєнного Львова. Займалася <br> скульптурою, живописом і філософськими практиками</p>
+                        <img src="/img/down-arrowmodel.svg" class="down-arrowmodel3" alt="Arrow">
+                    </div>
+                    <div class="down-border3"></div>
+                </div>
+            </div>
+        </div> -->
+
         
-        <div class="tg-bot">
+        <div class="tg-bot" id="tg-bot">
             <h3 class="theme-tg-bot">ТГ БОТ</h3>
             <div class="info-bot">
                 <div class="picture"></div>
