@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container-fluid {
   height: 3300px;
 }

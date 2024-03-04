@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-fluid {
     // height: 4000px;
     height: 3300px;
