@@ -355,6 +355,23 @@ html {
             line-height: 18px;
             margin-left: 180px;
             margin-top: 40px;
+            a {
+                background: -webkit-linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1));
+                /* Для Safari/Chrome */
+                background: linear-gradient(45deg, rgba(232, 200, 240, 1), rgba(250, 133, 245, 1));
+                /* Стандартний синтаксис */
+                -webkit-background-clip: text;
+                /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+                background-clip: text;
+                /* Дозволяємо обрізання фону за текстом */
+                color: transparent;
+                /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+                font-weight: 400;
+                font-size: 20px;
+                font-family: Montserrat;
+                line-height: 18px;
+                text-decoration: none;
+            }
         }
     }
 

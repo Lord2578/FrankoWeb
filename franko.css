@@ -292,6 +292,22 @@ html {
   margin-left: 180px;
   margin-top: 40px;
 }
+.mod3 .models-3d-text .text-3dmodel-adress a {
+  /* Для Safari/Chrome */
+  background: linear-gradient(45deg, rgb(232, 200, 240), rgb(250, 133, 245));
+  /* Стандартний синтаксис */
+  -webkit-background-clip: text;
+  /* Дозволяємо обрізання фону за текстом для Safari/Chrome */
+  background-clip: text;
+  /* Дозволяємо обрізання фону за текстом */
+  color: transparent;
+  /* Робимо текст прозорим, щоб був видимий тільки градієнт */
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Montserrat;
+  line-height: 18px;
+  text-decoration: none;
+}
 .mod3 .models-3d-photo {
   width: 30%;
   height: 100%;
