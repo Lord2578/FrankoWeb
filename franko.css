@@ -493,6 +493,95 @@ html {
   border-radius: 40px;
 }
 
+.third-model {
+  width: 45%;
+  height: 612px;
+  margin: 120px auto;
+}
+.third-model .number3 {
+  width: 100%;
+  height: 100px;
+}
+.third-model .models-and-notif3 {
+  width: 100%;
+  height: 525px;
+  display: flex;
+}
+.third-model .models-and-notif3 .model3 {
+  width: 50%;
+  height: 525px;
+  display: flex;
+  align-items: flex-end;
+}
+.third-model .models-and-notif3 .model3 #ar-prompt {
+  display: none;
+}
+.third-model .models-and-notif3 .model3 model-viewer {
+  width: 100%;
+  height: 60%;
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(237, 168, 255), rgb(193, 62, 228));
+}
+.third-model .models-and-notif3 .not3 {
+  width: 50%;
+  height: 525px;
+}
+.third-model .models-and-notif3 .not3 .model-message3 {
+  width: 100%;
+  height: 210px;
+  background-color: rgb(38, 38, 38);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.third-model .models-and-notif3 .not3 .model-message3 .model-name3 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 19.8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.third-model .models-and-notif3 .not3 .model-message3 .model-info3 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: white;
+}
+.third-model .models-and-notif3 .not3 .model-message3 .down-arrowmodel3 {
+  margin-top: 10px;
+}
+.third-model .models-and-notif3 .not3 .down-border3 {
+  width: 100%;
+  height: 315px;
+  position: relative;
+}
+.third-model .models-and-notif3 .not3 .down-border3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+.third-model .models-and-notif3 .not3 .down-border3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 3px;
+  background-color: rgb(91, 91, 91);
+  border-radius: 40px;
+}
+
 .name-color {
   color: #FFFFFF;
 }
