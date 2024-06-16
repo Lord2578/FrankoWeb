@@ -10,7 +10,7 @@ html {
 
 .container-fluid {
     // height: 4000px;
-    height: 3300px;
+    height: 3800px;
 
     $primary-color: #f5f5f5;
     $secondary-color: #ddd;
@@ -20,9 +20,9 @@ html {
         color: $name-color;
     }
 
-    #footer-member-position {
-        color: white;
-    }
+    // #footer-member-position {
+    //     color: white;
+    // }
 
 
     .tg-bot {
@@ -696,87 +696,102 @@ html {
 
 
 
+// .footer {
+//     background-image: url(./img/back-of-footer.jpg);
+//     background-color: rgba(123, 76, 124, 0.7);
+//     background-position: center;
 
-$primary-color: #f5f5f5;
-$secondary-color: #ddd;
-$name-color: #FFFFFF;
+//     .container {
+//         max-width: 1140px;
+//         margin: 0 auto;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
 
-.name-color {
-    color: $name-color;
-}
+//         .team {
+//             font-family: Montserrat;
+//             font-size: 60px;
+//             font-weight: 700;
+//             line-height: 60px;
+//             letter-spacing: -0.05em;
+//             color: #E8E8E8;
+//         }
 
-#footer-member-position {
-    color: white;
-}
-
-
-.footer {
-    background-image: url(./img/back-of-footer.jpg);
-    background-color: rgba(123, 76, 124, 0.7);
-    background-position: center;
-
-
-
-    .container {
-        max-width: 1140px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .team {
-            font-family: Montserrat;
-            font-size: 60px;
-            font-weight: 700;
-            line-height: 60px;
-            letter-spacing: -0.05em;
-            color: #E8E8E8;
-        }
-
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+//         .row {
+//             display: flex;
+//             flex-wrap: wrap;
+//             justify-content: center;
 
 
-            .col-md-3 {
-                flex: 0 0 25%;
-                max-width: 25%;
-                padding: 15px;
+//             .col-md-3 {
+//                 flex: 0 0 25%;
+//                 max-width: 25%;
+//                 padding: 15px;
 
-                .footer-member {
-                    text-align: center;
-                    border: 1px solid $secondary-color;
-                    padding: 20px;
-                    border-radius: 10px;
-                    border-color: #898989;
+//                 .footer-member {
+//                     text-align: center;
+//                     border: 1px solid $secondary-color;
+//                     padding: 20px;
+//                     border-radius: 10px;
+//                     border-color: #898989;
 
-                    .footer-member-image {
-                        width: 100px;
-                        height: 100px;
-                        border-radius: 50%;
-                        margin: 0 auto;
-                    }
+//                     .footer-member-image {
+//                         width: 100px;
+//                         height: 100px;
+//                         border-radius: 50%;
+//                         margin: 0 auto;
+//                     }
 
-                    .footer-member-position {
-                        font-size: 14px;
-                        font-weight: 300;
-                        color: #999;
-                    }
-                }
-            }
-        }
+//                     .footer-member-position {
+//                         font-size: 14px;
+//                         font-weight: 300;
+//                         color: #999;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// TEAM MEMBER SECTION
+
+.team-member-section {
+    width: 100%!important;
+    height: 800px;
+    background: linear-gradient(to top, rgba(101, 1, 105, 1), rgba(21, 21, 21, 1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .team-member-h1 {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: 60px;
+        color:rgba(232, 232, 232, 1);
+    }
+
+    .team-member-table {
+        width: 55%;
+        height: 60%;
+        border: 5px solid; /* Ширина бордера */
+        border-color: rgba(193, 62, 228, 1);
+        border-radius: 20px; /* Заокруглення кутів, якщо потрібно */
     }
 }
 
-.footer-separator {
-    height: 20vh;
+
+// FOOTER
+
+.footer {
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/back-of-footer.jpg);
-    background-color: rgba(123, 76, 124, 0.7);
+    background-color: rgba(101, 1, 105, 1);
 
     .black-screen {
         display: flex;
