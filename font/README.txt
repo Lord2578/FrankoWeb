@@ -79,3 +79,5 @@ commercial or otherwise.
 
 This isn't legal advice, please consider consulting a lawyer and see the full
 license for all details.
+
+*All fonts used are available in the public domain and free of charge
