@@ -10,7 +10,7 @@ html {
 
 .container-fluid {
     // height: 4000px;
-    height: 3800px;
+    height: 4600px;
 
     $primary-color: #f5f5f5;
     $secondary-color: #ddd;
@@ -694,64 +694,108 @@ html {
     }
 }
 
+// FOURTH MODEL
 
+.fourth-model {
+    width: 45%;
+    height: 612px;
+    margin: 120px auto;
 
-// .footer {
-//     background-image: url(./img/back-of-footer.jpg);
-//     background-color: rgba(123, 76, 124, 0.7);
-//     background-position: center;
+    .number4 {
+        width: 100%;
+        height: 100px;
+    }
 
-//     .container {
-//         max-width: 1140px;
-//         margin: 0 auto;
-//         display: flex;
-//         flex-wrap: wrap;
-//         justify-content: center;
+    .models-and-notif4 {
+        width: 100%;
+        height: 525px;
+        display: flex;
 
-//         .team {
-//             font-family: Montserrat;
-//             font-size: 60px;
-//             font-weight: 700;
-//             line-height: 60px;
-//             letter-spacing: -0.05em;
-//             color: #E8E8E8;
-//         }
+        .model4 {
+            width: 50%;
+            height: 525px;
+            display: flex;
+            align-items: flex-end;
 
-//         .row {
-//             display: flex;
-//             flex-wrap: wrap;
-//             justify-content: center;
+            #ar-prompt {
+                display: none;
+            }
 
+            model-viewer {
+                width: 100%;
+                height: 60%;
+                border-radius: 35px;
+                background-image: linear-gradient(to right, rgba(237, 168, 255, 1), rgba(193, 62, 228, 1));
+            }
+        }
 
-//             .col-md-3 {
-//                 flex: 0 0 25%;
-//                 max-width: 25%;
-//                 padding: 15px;
+        .not4 {
+            width: 50%;
+            height: 525px;
 
-//                 .footer-member {
-//                     text-align: center;
-//                     border: 1px solid $secondary-color;
-//                     padding: 20px;
-//                     border-radius: 10px;
-//                     border-color: #898989;
+            .model-message4 {
+                width: 100%;
+                height: 225px;
+                background-color: rgba(38, 38, 38, 1);
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
 
-//                     .footer-member-image {
-//                         width: 100px;
-//                         height: 100px;
-//                         border-radius: 50%;
-//                         margin: 0 auto;
-//                     }
+                .model-name4 {
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 19.8px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
 
-//                     .footer-member-position {
-//                         font-size: 14px;
-//                         font-weight: 300;
-//                         color: #999;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                .model-info4 {
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 13.5px;
+                    color: white;
+                }
+                .down-arrowmodel4 {
+                    margin-top: 10px;
+                }
+            }
+
+            .down-border4 {
+                width: 100%;
+                height: 315px;
+                position: relative;
+            }
+
+            .down-border4::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 50%;
+                height: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+
+            .down-border4::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 50%;
+                width: 3px;
+                background-color: rgba(91, 91, 91, 1);
+                border-radius: 40px;
+            }
+        }
+    }
+}
 
 
 // TEAM MEMBER SECTION
@@ -774,11 +818,75 @@ html {
     }
 
     .team-member-table {
+        display: flex;
         width: 55%;
         height: 60%;
         border: 5px solid; /* Ширина бордера */
         border-color: rgba(193, 62, 228, 1);
         border-radius: 20px; /* Заокруглення кутів, якщо потрібно */
+
+        .team-member-col1 {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .team-member-element-col1 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 25px;
+                letter-spacing: -5%;
+                color: white;
+
+
+                .team-member-element-col1-star {
+                    margin-top: 2px;
+                    margin-left: 10px;
+                }
+
+                .team-role-span1 {
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 23px;
+                    line-height: 25px;
+                    letter-spacing: -5%;
+                    color: white; 
+                }
+            }
+        }
+
+        .team-member-col2 {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .team-member-element-col2 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 25px;
+                letter-spacing: -5%;
+                color: white;
+
+                .team-member-element-col2-star {
+                    margin-top: 2px;
+                    margin-left: 10px;
+                }
+
+                .team-role-span2 {
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 23px;
+                    line-height: 25px;
+                    letter-spacing: -5%;
+                    color: white; 
+                }
+            }
+        }
     }
 }
 
